@@ -1,0 +1,6 @@
+{
+  "name": "Abandoned But Not Forgotten - Mars 3D Exploration",
+  "description": "A first-person 3D Mars exploration prototype. Explore the Martian terrain, navigate dunes and craters, and discover the abandoned Mars rover.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

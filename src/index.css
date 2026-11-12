@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #07090e;
+    color: #e2e2ea;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono-tech {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Visor curvature and telemetry styles */
+.visor-vignette {
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(7, 9, 14, 0.45) 85%, rgba(7, 9, 14, 0.85) 100%);
+}
+
+.graticule-grid {
+  background-image: radial-gradient(#38bdf8 1px, transparent 1px);
+  background-size: 32px 32px;
+}
